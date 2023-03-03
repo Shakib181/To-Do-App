@@ -1,0 +1,45 @@
+.main-class{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    
+}
+button{
+    background-color: blueviolet;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px  6px black;
+    border:none;
+}
+h1{
+    background-color: coral;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+table{
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    
+}
+table,th,td{
+    border: 2px solid rgb(228, 233, 228);
+    border-collapse: collapse;
+    padding: 10px;
+    box-shadow: 3px 4px 5px black;
+
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: rgb(19, 19, 39);
+}
